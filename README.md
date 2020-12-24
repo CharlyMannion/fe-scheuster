@@ -122,7 +122,7 @@ npm run test-app
 
 ## why choose us to solve your problems?
 * We will not only create a product, but upskill your digital team(s) Agile working practices
-* We will join forces with Scheuster to work as a blended scrum, in order to collaborate with Scheuster's teams, including API teams, a UX team and SIT (System Integration & Testing)
+* We will join forces with Scheuster to work as a blended scrum in order to collaborate with Scheuster's teams, including API teams, a UX team and SIT (System Integration & Testing)
 * We have a proven track record of running bespoke Agile Bootcamps and specialised training in product management (e.g. TalkTalk). We can run these within your website in order to train your teams in Agile ways of working
 * We can work with you to augement your existing teams with new analysts and developers, enabling them to maintain the rapid pace set by the blended team, while maintaining high quality outputs
 * Once the inital product build is completed, AND’s team of dedicated Agile coaches are also offering ongoing coaching and guidance to Scheuster
