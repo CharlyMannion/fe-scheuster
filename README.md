@@ -120,16 +120,32 @@ npm run test-app
 * We will create an automated email newsletter
 * We will build functionality for vouchers to be used online, if this can be proved to be profitable
 
-* why choose us to solve your problems?
+## why choose us to solve your problems?
+* We will not only create a product, but upskill your digital team(s) Agile working practices
+* We will join forces with Scheuster to work as a blended scrum, in order to collaborate with Scheuster's teams, including API teams, a UX team and SIT (System Integration & Testing)
+* We have a proven track record of running bespoke Agile Bootcamps and specialised training in product management (e.g. TalkTalk). We can run these within your website in order to train your teams in Agile ways of working
+* We can work with you to augement your existing teams with new analysts and developers, enabling them to maintain the rapid pace set by the blended team, while maintaining high quality outputs
+* Once the inital product build is completed, AND’s team of dedicated Agile coaches are also offering ongoing coaching and guidance to Scheuster
+* We will build a continuous integration pipeline, allowing for smaller changes to be made to the website
+* We will set up automated testing for the web and mobile applications
+
 
 ## Impact of these solutions
-* Improved customer satisfaction
 * Fewer returns
+* Reduced calls to customer call centres
+* Streamlined and improved customer experience on the website
+* Improved customer satisfaction
+* Full adherence to Scrum best practices
+* Reduced login time for customers
+* Increased social media presence
+* Increased revenue
+
 
 ## Next steps
-* cost
-* how long to build
-* how to test the product
+* cost -> 
+* how long to build -> 
+* how to test the product -> We will set up automated testing for the web and mobile applications
+
 
 ## User Stories
 ### MVP
