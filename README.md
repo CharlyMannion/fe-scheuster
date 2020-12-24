@@ -222,6 +222,26 @@ I want to be able to follow Scheuster on social media
 ### Extension User Stories
 ```
 As a customer,
+So I can create a Schuester account and keep track of my orders,
+I want to sign up to Scheuster
+
+As a customer,
+So I can create a Schuester account and keep track of my orders,
+I want to log in to my Scheuster account
+
+As a customer,
+So I can create a Schuester account and keep track of my orders,
+I want to view my orders
+
+As a customer,
+So I can stay up to date with Scheuster products,
+I want to check a button to receive emails
+
+As a customer,
+So I can choose not to receive emails about Scheuster products,
+I want to check a button to no longer receive emails
+
+As a customer,
 So I can stay up to date with Scheuster products,
 I want to receive an email newsletter from Scheuster
 
