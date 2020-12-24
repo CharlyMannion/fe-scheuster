@@ -10,27 +10,6 @@ Check out the presentation slides [here](https://docs.google.com/presentation/d/
 
 View the trello board [here](https://trello.com/b/DpW95zmA/scheuster)
 
-## Objectives
-* Follow Agile methodologies/ Agile delivery
-* Have working back end code
-* Build the app mobile-first
-* Build a functional website
-* Focus on good UX
-
-## Approach
-* I started by reading the case study and taking note of the key problems that Schuester faces
-* I then thought about how I could design a product that would solve these problems 
-* I researched ways to improve UX
-* I researched ways to improve social media presence, such as instashopping
-* I researched whether or not it would be profitable to provide vouchers/discounts to online customers
-* I created a Trello board so I could keep track of my progress
-* I wrote a list of tasks that I needed to complete as a software developer and business consultant in order to create a product, and added these to my trello board
-* I wrote user stories for the product
-* I converted these user stories into tasks, and added them to the Trello board
-* I decided which technologies I would use to build the product
-* I created frontend and backened repositories for my code on Github, so I could practice continuous delivery
-* I created slides to present to the client
-
 ## Technologies Used
 * React
 * Javascript
@@ -89,10 +68,26 @@ npm i
 npm run test-app
 ```
 
-## User Stories
-### MVP
-```
-```
+## Objectives
+* Follow Agile methodologies/ Agile delivery
+* Have working back end code
+* Build the app mobile-first
+* Build a functional website
+* Focus on good UX
+
+## Approach
+* I started by reading the case study and taking note of the key problems that Schuester faces
+* I then thought about how I could design a product that would solve these problems 
+* I researched ways to improve UX
+* I researched ways to improve social media presence, such as instashopping
+* I researched whether or not it would be profitable to provide vouchers/discounts to online customers
+* I created a Trello board so I could keep track of my progress
+* I wrote a list of tasks that I needed to complete as a software developer and business consultant in order to create a product, and added these to my trello board
+* I wrote user stories for the product
+* I converted these user stories into tasks, and added them to the Trello board
+* I decided which technologies I would use to build the product
+* I created frontend and backened repositories for my code on Github, so I could practice continuous delivery
+* I created slides to present to the client
 
 ## Challenges Scheuster faces
 * A decline in revenue over the last 2-3 years
@@ -136,3 +131,105 @@ npm run test-app
 * how long to build
 * how to test the product
 
+## User Stories
+### MVP
+```
+As a customer,
+So I can browse shoes from the comfort of my home,
+I want to visit a shoe shop's website
+
+As a customer, 
+So I can view a selection of shoes,
+I want to see a page with mutliple shoes
+
+As a customer, 
+So I can find the type of shoe that I am looking for,
+I want to see categories of shoes that I can click on
+
+As a customer, 
+So I can see a selection of shoes in the type that I am looking for,
+I want to be able to click on a category of shoe
+
+As a customer, 
+So I can tell if a shoe is right for me,
+I want to be able to click on a shoe and see more information about it
+
+As a customer, 
+So I can tell if a shoe is right for me,
+I want to see multiple images of the shoe
+
+As a customer, 
+So I can tell if a shoe is right for me,
+I want to read a description of the shoe
+
+As a customer, 
+So I can tell if a shoe is the right price for me,
+I want to see the price of the shoe
+
+As a customer, 
+So I can work out what size shoe I need,
+I want to see sizing information for that shoe
+
+As a customer,
+So I can buy a shoe of my choosing,
+I want to be able to select my size from a drop down menu of available sizes
+
+As a customer,
+So I can buy a shoe of my choosing,
+I want to be able to click on an add to basket button
+
+As a customer,
+So I know a shoe is in my basket,
+I want to see a confirmation message that it has been added to my basket
+
+As a customer,
+So I can review my basket,
+I want to be able to click on a basket icon
+
+As a customer,
+So I can review my basket,
+I want to see the items in my basket
+
+As a customer, 
+So I can easily purchase a shoe,
+I want a secure and fluid purchase process
+
+As a customer,
+So I know when to expect my shoes,
+I want to be able to easily find and veiw delivery information
+
+As a customer,
+So I know how to return my shoes,
+I want to be able to easily find and view returns information
+
+As a customer,
+So I can stay up to date with Scheuster products,
+I want to be able to see links to Scheuster's social media on the website
+
+As a customer,
+So I can stay up to date with Scheuster products,
+I want to be able to follow Scheuster on social media
+``` 
+
+### Extension User Stories
+```
+As a customer,
+So I can stay up to date with Scheuster products,
+I want to receive an email newsletter from Scheuster
+
+As a customer that loves a bargain,
+So I can get the best value for my money,
+I want to receive vouchers to use online
+
+As a discerning customer,
+So I know that Scheuster matches my personal brand,
+I want to see a modern, well-designed website
+
+As a potential customer on social media (instagram),
+So I know to go to Scheuster for my shoe needs,
+I want to see advertisements for Scheuster products that appeal to me
+
+As a potential customer on social media (instagram),
+If I see a Scheuster product that appeals to me,
+I want to be able to buy that product on social media e.g. InstaShop
+```
