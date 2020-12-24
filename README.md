@@ -190,6 +190,14 @@ As a customer,
 So I can review my basket,
 I want to see the items in my basket
 
+As a customer,
+So I am not dissapointed by trying to purchase an out-of-stock shoe,
+I want it clearly labelled out-of-stock
+
+As a customer,
+So I cannot purchase an out-of-stock shoe,
+I want to be unable to complete the purchase of an out-of-stock shoe
+
 As a customer, 
 So I can easily purchase a shoe,
 I want a secure and fluid purchase process
