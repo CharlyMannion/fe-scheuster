@@ -38,7 +38,7 @@ class SingleShoe extends Component {
         return (
             <main className='single_page_shoe'>
                 <h2>{shoe_info.name}</h2>
-                <h3>{shoe_info.price}</h3>
+                <h3>£{shoe_info.price}</h3>
                 <p>{shoe_info.description}</p>
             </main>
         )
