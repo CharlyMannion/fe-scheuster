@@ -3,7 +3,7 @@ import {Link} from '@reach/router';
 
 const Header = () => {
     return (
-    <header className="App-header">
+    <header className="header">
         <Link to='/' style={{ color: 'inherit', textDecoration: 'none' }}><h1>Golden Shoe</h1></Link>
     </header>
     )
