@@ -37,6 +37,7 @@ class SingleShoe extends Component {
         return (
             <main className='single_page_shoe'>
                 <h2>{shoe_info.name}</h2>
+                <img className="avatar" src={shoe_info.avatar_url} alt="missing shoe image..."></img>
                 <h3>£{shoe_info.price}</h3>
                 <StyledParagraph>{shoe_info.description}</StyledParagraph>
             </main>
