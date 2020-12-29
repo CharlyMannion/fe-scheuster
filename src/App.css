@@ -137,19 +137,13 @@
     .sorter {
         width: 120vh;
     }
-    .commentCard {
+    .shoeList {
         width: 120vh;
     }
-    .commentForm {
+    .shoeCard {
         width: 120vh;
     }
-    .commentList {
-        width: 120vh;
-    }
-    .articleCard {
-        width: 120vh;
-    }
-    .single-page-article {
+    .single-page-shoe {
         width: 120vh;
     }
     .error-display {
