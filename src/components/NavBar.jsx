@@ -3,7 +3,7 @@ import {Link} from '@reach/router';
 
 class NavBar extends Component {
     state = {
-        categories: ['Men', 'Women', 'Children']
+        categories: ['men', 'women', 'children']
     }
 
     render() {
@@ -11,7 +11,7 @@ class NavBar extends Component {
         return (
             <nav>
                 {categories.map(category => {
-                    return <Link to ={`/shoes/?category=${category}`} key={category}><button>{category}</button></Link>
+                    return <Link to ={`/shoes/` + category} key={category}><button>{category}</button></Link>
                 })}
             </nav>
         );
