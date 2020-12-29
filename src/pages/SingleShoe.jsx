@@ -40,6 +40,7 @@ class SingleShoe extends Component {
                 {/* <img className="avatar" src={shoe_info.avatar_url} alt="missing shoe image..."></img> */}
                 <h3>£{shoe_info.price}</h3>
                 <StyledParagraph>{shoe_info.description}</StyledParagraph>
+                <h3>Number in stock: {shoe_info.stock_number}</h3>
             </main>
         )
     }
