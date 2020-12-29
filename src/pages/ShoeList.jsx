@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Loader from '../components/Loader';
 import ErrorDisplay from '../components/ErrorDisplay';
+import ShoeCard from '../components/ShoeCard';
 // import {fetchShoes} from '../../src/utils/api';
 
 class ShoeList extends Component {
@@ -39,7 +40,7 @@ class ShoeList extends Component {
         return (
             <main>
                 {shoes.map(shoe => {
-                    return <section key={shoe.shoe_id}>{shoe.name}</section>
+                    return <ShoeCard {... shoe} key={shoe.shoe_id}/>
                 })}
             </main>
         )
