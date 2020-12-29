@@ -39,6 +39,7 @@ npm i
 ```
 npm start
 ```
+Should automatically open the locally hosted app. If not click [here](http://localhost:3000/) to visit 'localhost:3000/'
 
 ## Running Tests
 ```
@@ -52,7 +53,7 @@ git clone git@github.com:CharlyMannion/be-scheuster.git
 ```
 * Go into the project directory:
 ```
-cd final_project
+cd be-scheuster
 ```
 * Open the app in your favourite text editor to view the code (We like VSCode):
 ```
