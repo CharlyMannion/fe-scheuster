@@ -10,9 +10,9 @@ class NavBar extends Component {
         const {categories} = this.state
         return (
             <nav>
-                {categories.map(category => {
-                    return <Link to ={`/shoes/?category=${category}`} key={category}><button>{category}</button></Link>
-                })}
+                {/* {categories.map(category => {
+                    return <Link to ={`/shoes/${category}`} key={category}><button>{category}</button></Link>
+                })} */}
             </nav>
         );
     }

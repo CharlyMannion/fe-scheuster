@@ -11,7 +11,7 @@ class NavBar extends Component {
         return (
             <nav>
                 {categories.map(category => {
-                    return <Link to ={`/shoes/` + category} key={category}><button>{category}</button></Link>
+                    return <Link to ={`/shoes/${category}`} key={category}><button>{category}</button></Link>
                 })}
             </nav>
         );
