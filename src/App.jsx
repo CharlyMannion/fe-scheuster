@@ -8,7 +8,7 @@ import NavBar from './components/NavBar';
 import OptionsBar from './components/OptionsBar';
 import ShoeList from './pages/ShoeList';
 import SingleShoe from './pages/SingleShoe'
-// import ErrorDisplay from './components/ErrorDisplay';
+import ErrorDisplay from './components/ErrorDisplay';
 
 class App extends Component {
 
@@ -21,7 +21,7 @@ class App extends Component {
          <Router>
              <ShoeList path="/" />
              <SingleShoe path="/shoes/:shoe_id" />
-             {/* <ErrorDisplay default status={404} message="This page does not exist"/> */}
+             <ErrorDisplay default status={404} message="This page does not exist"/>
          </Router>
          <Footer />
       </div>
