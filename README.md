@@ -39,7 +39,7 @@ npm i
 ```
 npm start
 ```
-Should automatically open the locally hosted app. If not click [here](http://localhost:3000/) to visit 'localhost:3000/'
+Should automatically open the locally hosted app. If not click [here](http://localhost:3000/) to visit '//localhost:3000/'
 
 ## Running Tests
 ```
