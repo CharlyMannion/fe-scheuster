@@ -21,7 +21,7 @@ class App extends Component {
          <Router>
              <ShoeList path="/" />
              <ShoeList path="/shoes/:slug" />
-             <SingleShoe path="/shoes/:shoe_id" />
+             <SingleShoe path="/shoe/:shoe_id" />
              <ErrorDisplay default status={404} message="This page does not exist"/>
          </Router>
          <Footer />
