@@ -13,8 +13,8 @@ class ShoeList extends Component {
 
   fetchShoes = () => {
     axios
-      .get(`https://be-scheuster.herokuapp.com/api/shoes/`)
-      .then(({ data: { shoes } }) => {
+    .get(`https://be-scheuster.herokuapp.com/api/shoes/`, {params: {category: this.props.slug}})
+    .then(({ data: { shoes } }) => {
         this.setState({ shoes, isLoading: false, error: null });
       })
       .catch(({ response }) => {
@@ -34,9 +34,7 @@ class ShoeList extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (prevProps.slug !== this.props.slug) {
       axios
-        .get(
-          `https://be-scheuster.herokuapp.com/api/shoes/?category=${this.props.slug}`
-        )
+        .get(`https://be-scheuster.herokuapp.com/api/shoes/`, {params: {category: this.props.slug}})
         .then(({ data: { shoes } }) => {
           this.setState({ shoes, isLoading: false });
         });
