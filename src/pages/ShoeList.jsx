@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import Loader from '../components/Loader';
 import axios from 'axios';
+import Loader from '../components/Loader';
+import ErrorDisplay from '../components/ErrorDisplay';
+// import {fetchShoes} from '../../src/utils/api';
 
 class ShoeList extends Component {
     state = {
@@ -8,16 +10,32 @@ class ShoeList extends Component {
         isLoading: true,
     }
 
-    componentDidMount() {
+    fetchShoes = () => {
         axios.get(`https://be-scheuster.herokuapp.com/api/shoes/`)
         .then(({data: {shoes}}) => {
-            this.setState({shoes, isLoading: false})
+            this.setState({shoes, isLoading: false, error: null})
+        })
+        .catch(({response}) => {
+            this.setState({
+                error: {
+                    status: response.status,
+                    message: response.data.msg,
+                }
+            })
         })
     }
 
+    componentDidMount() {
+        this.fetchShoes();
+    }
+
     render() {
-        const {shoes, isLoading} = this.state
+        const {shoes, isLoading, error} = this.state
+        if (error) return (
+            <ErrorDisplay {...error}/>
+        )
         if (isLoading) return <Loader/>
+
         return (
             <main>
                 {shoes.map(shoe => {

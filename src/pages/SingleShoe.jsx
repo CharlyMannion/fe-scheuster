@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Loader from '../components/Loader';
+import Loader from '../components/Loader';
 // import axios from 'axios';
 
 class SingleShoe extends Component {
@@ -9,6 +9,8 @@ class SingleShoe extends Component {
     }
 
     render() {
+        // const {isLoading} = this.state
+        // if (isLoading) return <Loader/>
         return (
             <p>Single Shoe!</p>
         )
