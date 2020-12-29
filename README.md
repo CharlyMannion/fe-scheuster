@@ -278,3 +278,11 @@ As a potential customer on social media (instagram),
 If I see a Scheuster product that appeals to me,
 I want to be able to buy that product on social media e.g. InstaShop
 ```
+
+## Diagrams
+
+### Views
+![Screenshot 2020-12-29 at 14 13 22](https://user-images.githubusercontent.com/28218869/103289883-2fe57180-49e0-11eb-93d1-9251c2d5743c.png)
+
+### Component Tree
+![Screenshot 2020-12-29 at 13 56 52](https://user-images.githubusercontent.com/28218869/103289880-2eb44480-49e0-11eb-9626-1db8c48bdcfd.png)
