@@ -1,6 +1,6 @@
 # Scheuster
 
-View the website [here](https://scheuster.netlify.app/)
+View the website [here](https://goldenshoe.netlify.app/)
 
 Find the hosted back end [here](https://scheuster-backend.herokuapp.com/playerlist)
 
