@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
 
   componentDidMount() {
-    axios.get('https://be-scheuster.herokuapp.com/api/shoes')
+    axios.get('https://be-scheuster.herokuapp.com/api/shoes?category=men')
     .then(({data}) => {
       console.log(data.shoes)
     })
