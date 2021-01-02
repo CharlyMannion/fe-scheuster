@@ -13,7 +13,7 @@ class Footer extends Component {
             <div className="footer">
             <nav>
                 {categories.map(category => {
-                    return <Link to ={`/${category.toLowerCase()}`} key={category}><StyledButton>{category}</StyledButton></Link>
+                    return <Link to={`/${category.toLowerCase()}`} key={category} value={category}><StyledButton>{category}</StyledButton></Link>
                 })}
                 <Link to="/contact" key='contact'><StyledButton>contact us</StyledButton></Link>
             </nav>
