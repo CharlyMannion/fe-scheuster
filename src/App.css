@@ -49,6 +49,13 @@
     border-top: 20px solid #ebe6e1;
 }
 
+.shoeList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* .user-displayer {
     min-height: 5vh;
@@ -84,13 +91,13 @@ img {
 .shoeCard {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     min-height: 10vh;
     width: 60%;
     padding: 1rem 2rem;
     margin: 1rem;
-    text-align: left;
+    /* text-align: left; */
     background-color: white;
     color: rgba(83, 107, 120, 1);
 }
@@ -105,7 +112,7 @@ img {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: rgba(253, 247, 250, 1);
+    background-color: white;
     border: 4px solid #ebe6e1;
     color: rgba(253, 247, 250, 1);
 }

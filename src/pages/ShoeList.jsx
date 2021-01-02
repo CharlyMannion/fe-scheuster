@@ -53,7 +53,7 @@ class ShoeList extends Component {
 
     return (
       <Fade>
-        <main>
+        <main className='shoeList'>
           {shoes.map((shoe) => {
             return <ShoeCard {...shoe} key={shoe.shoe_id} />;
           })}
