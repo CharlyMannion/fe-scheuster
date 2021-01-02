@@ -16,6 +16,7 @@ class Footer extends Component {
                     return <Link to ={`/${category.toLowerCase()}`} key={category}><StyledButton>{category}</StyledButton></Link>
                 })}
             </nav>
+            <Link to="/contact" key='contact'><StyledButton>contact us</StyledButton></Link>
             </div>
         );
     }
