@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { Component } from "react";
 
-const Info = (props) => {
-    console.log(props.value, "PROPS PAGE")
-    return (
-    <h1> {props.key} Info Page</h1>
-    )
+class Info extends Component {
+  render() {
+    return <h1> Info Page</h1>;
+  }
 }
 
 export default Info;

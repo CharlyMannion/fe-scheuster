@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from "react";
 
-const ContactForm = (props) => {
-    return (
-    <h1>Contact Form</h1>
-    )
+class ContactForm extends Component {
+  render() {
+    return <h1> ContactForm Page</h1>;
+  }
 }
 
 export default ContactForm;
