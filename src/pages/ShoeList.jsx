@@ -4,7 +4,6 @@ import axios from "axios";
 import Loader from "../components/Loader";
 import ErrorDisplay from "../components/ErrorDisplay";
 import ShoeCard from "../components/ShoeCard";
-// import {fetchShoes} from '../../src/utils/api';
 
 class ShoeList extends Component {
   state = {

@@ -9,6 +9,8 @@ import OptionsBar from './components/OptionsBar';
 import ShoeList from './pages/ShoeList';
 import SingleShoe from './pages/SingleShoe'
 import ErrorDisplay from './components/ErrorDisplay';
+import Info from './components/Info';
+import ContactForm from './components/ContactForm';
 
 class App extends Component {
 
@@ -23,6 +25,10 @@ class App extends Component {
              <ShoeList path="/shoes/:slug" />
              <SingleShoe path="/shoe/:shoe_id" />
              <ErrorDisplay default status={404} message="This page does not exist"/>
+             <ContactForm path="/contact" />
+             <Info path="/faq" />
+             <Info path="/returns" />
+             <Info path="/delivery" />
          </Router>
          <Footer />
       </div>
