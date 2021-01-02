@@ -9,7 +9,9 @@ import OptionsBar from './components/OptionsBar';
 import ShoeList from './pages/ShoeList';
 import SingleShoe from './pages/SingleShoe'
 import ErrorDisplay from './components/ErrorDisplay';
-import Info from './components/Info';
+import Returns from './components/Returns';
+import Delivery from './components/Delivery';
+import FAQ from './components/FAQ';
 import ContactForm from './components/ContactForm';
 import Basket from './components/Basket';
 
@@ -27,9 +29,9 @@ class App extends Component {
              <SingleShoe path="/shoe/:shoe_id" />
              <ErrorDisplay default status={404} message="This page does not exist"/>
              <ContactForm path="/contact" />
-             <Info path="/faq" />
-             <Info path="/returns" />
-             <Info path="/delivery" />
+             <FAQ path="/faq" />
+             <Returns path="/returns" />
+             <Delivery path="/delivery" />
              <Basket path="basket"/>
          </Router>
          <Footer />
