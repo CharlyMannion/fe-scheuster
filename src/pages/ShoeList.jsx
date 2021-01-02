@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FadeIn from 'react-fade-in';
 import axios from "axios";
 import Loader from "../components/Loader";
 import ErrorDisplay from "../components/ErrorDisplay";
@@ -47,11 +48,13 @@ class ShoeList extends Component {
     if (isLoading) return <Loader />;
 
     return (
+    <FadeIn>
       <main>
         {shoes.map((shoe) => {
           return <ShoeCard {...shoe} key={shoe.shoe_id} />;
         })}
       </main>
+    </FadeIn>
     );
   }
 }
