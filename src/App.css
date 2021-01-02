@@ -30,8 +30,8 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: rgba(253, 247, 250, 1);
-    background-color: rgba(99, 112, 129, 1);
+    color: #faaa1f;
+    background-color: #ebe6e1;
     border: 4px solid rgba(253, 247, 250, 1);
 }
 
@@ -44,7 +44,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: rgba(253, 247, 250, 1);
-    background-color: rgba(99, 112, 129, 1);
+    background-color: #ebe6e1;
     border: 4px solid rgba(253, 247, 250, 1);
 }
 
@@ -85,9 +85,8 @@
     padding: 1rem 2rem;
     margin: 1rem;
     text-align: left;
-    background-color: rgba(99, 112, 129, 1);
-    border: 4px solid rgba(241, 80, 37, 1);
-    color: rgba(253, 247, 250, 1);
+    background-color: #ebe6e1;
+    color: rgba(83, 107, 120, 1);
 }
 
 .shoeCard:hover {
@@ -101,11 +100,9 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* margin: 1rem; */
     background-color: rgba(253, 247, 250, 1);
     order: 4px solid rgba(253, 247, 250, 1);
     color: rgba(253, 247, 250, 1);
-    background-color: rgba(99, 112, 129, 1);
 }
 
 
@@ -125,8 +122,8 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
-    background-color: rgba(99, 112, 129, 1);
+    color: rgba(83, 107, 120, 1);
+    background-color: #ebe6e1;
     border: 4px solid rgba(253, 247, 250, 1);
 }
 

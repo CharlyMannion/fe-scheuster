@@ -4,11 +4,12 @@ const StyledButton = styled.button`
 font-size: 1em;
 margin: 1em;
 padding: 0.25em 1em;
-border-radius: 3px;
-color: rgba(253, 247, 250, 1);
-border: 2px solid rgba(253, 247, 250, 1);
-background: rgba(241, 80, 37, 1);
+border-radius: 15px;
+color: #f7f3f4;
+border: 2px solid #f7f3f4;;
+background: #c8113b;
 text-align: center;
 `
 
 export default StyledButton;
+
