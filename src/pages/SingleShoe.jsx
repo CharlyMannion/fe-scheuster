@@ -50,9 +50,9 @@ class SingleShoe extends Component {
         <h3>£{shoe_info.price}</h3>
         <StyledButtonTwo>Add to Basket</StyledButtonTwo>
         <br />
-        <h4>Description: {shoe_info.description}</h4>
-        <h4>Sizing Info: {shoe_info.sizing_info}</h4>
-        <h4>Number in stock: {shoe_info.stock_number}</h4>
+        <p><strong>Description:</strong> {shoe_info.description}</p>
+        <p><strong>Sizing Info:</strong> {shoe_info.sizing_info}</p>
+        <p><strong>Number in stock:</strong> {shoe_info.stock_number}</p>
         <br />
       </main>
     );
