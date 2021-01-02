@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 import axios from "axios";
 import Loader from "../components/Loader";
 import ErrorDisplay from "../components/ErrorDisplay";
@@ -52,7 +52,7 @@ class ShoeList extends Component {
 
     return (
       <Fade>
-        <main className='shoeList'>
+        <main className="shoeList">
           {shoes.map((shoe) => {
             return <ShoeCard {...shoe} key={shoe.shoe_id} />;
           })}

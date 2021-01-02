@@ -1,12 +1,14 @@
-import React from 'react';
-import {Link} from '@reach/router';
+import React from "react";
+import { Link } from "@reach/router";
 
 const Header = () => {
-    return (
+  return (
     <header className="header">
-        <Link to='/' style={{ color: 'inherit', textDecoration: 'none' }}><h1>Golden Shoe</h1></Link>
+      <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
+        <h1>Golden Shoe</h1>
+      </Link>
     </header>
-    )
-}
+  );
+};
 
 export default Header;
