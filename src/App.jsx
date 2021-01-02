@@ -11,6 +11,7 @@ import SingleShoe from './pages/SingleShoe'
 import ErrorDisplay from './components/ErrorDisplay';
 import Info from './components/Info';
 import ContactForm from './components/ContactForm';
+import Basket from './components/Basket';
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
              <Info path="/faq" />
              <Info path="/returns" />
              <Info path="/delivery" />
+             <Basket path="basket"/>
          </Router>
          <Footer />
       </div>

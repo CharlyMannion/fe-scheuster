@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Loader from '../components/Loader';
 import ErrorDisplay from "../components/ErrorDisplay";
 import axios from 'axios';
-import StyledParagraph from '../styledComponents/StyledParagraph'
+import StyledButtonTwo from '../styledComponents/StyledButtonTwo';
 
 class SingleShoe extends Component {
     state = {
@@ -37,10 +37,14 @@ class SingleShoe extends Component {
         return (
             <main className='single_page_shoe'>
                 <h2>{shoe_info.name}</h2>
-                {/* <img className="avatar" src={shoe_info.avatar_url} alt="missing shoe image..."></img> */}
+                <img className="avatar" src={shoe_info.avatar_url} alt="missing shoe image..."></img>
                 <h3>£{shoe_info.price}</h3>
-                <StyledParagraph>{shoe_info.description}</StyledParagraph>
-                <h3>Number in stock: {shoe_info.stock_number}</h3>
+                <StyledButtonTwo>Add to Basket</StyledButtonTwo>
+                <br/>
+                <h4>Description: {shoe_info.description}</h4>
+                <h4>Sizing Info: {shoe_info.sizing_info}</h4>
+                <h4>Number in stock: {shoe_info.stock_number}</h4>
+                <br/>
             </main>
         )
     }

@@ -10,6 +10,7 @@ const ShoeCard = (props) => {
             <Link to={`/shoe/${props.shoe_id}`} style={{ color: 'inherit', textDecoration: 'none' }}>
                 <h3>{props.name}</h3>
             </Link>
+            <p>{props.style}</p>
             <p>£{props.price}</p>
         </section>
         </Fade>
