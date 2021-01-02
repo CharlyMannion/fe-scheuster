@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FadeIn from 'react-fade-in';
+import Fade from 'react-reveal/Fade';
 import axios from "axios";
 import Loader from "../components/Loader";
 import ErrorDisplay from "../components/ErrorDisplay";
@@ -14,8 +14,10 @@ class ShoeList extends Component {
 
   fetchShoes = () => {
     axios
-    .get(`https://be-scheuster.herokuapp.com/api/shoes/`, {params: {category: this.props.slug}})
-    .then(({ data: { shoes } }) => {
+      .get(`https://be-scheuster.herokuapp.com/api/shoes/`, {
+        params: { category: this.props.slug },
+      })
+      .then(({ data: { shoes } }) => {
         this.setState({ shoes, isLoading: false, error: null });
       })
       .catch(({ response }) => {
@@ -35,7 +37,9 @@ class ShoeList extends Component {
   componentDidUpdate(prevProps, prevState) {
     if (prevProps.slug !== this.props.slug) {
       axios
-        .get(`https://be-scheuster.herokuapp.com/api/shoes/`, {params: {category: this.props.slug}})
+        .get(`https://be-scheuster.herokuapp.com/api/shoes/`, {
+          params: { category: this.props.slug },
+        })
         .then(({ data: { shoes } }) => {
           this.setState({ shoes, isLoading: false });
         });
@@ -48,13 +52,13 @@ class ShoeList extends Component {
     if (isLoading) return <Loader />;
 
     return (
-    <FadeIn>
-      <main>
-        {shoes.map((shoe) => {
-          return <ShoeCard {...shoe} key={shoe.shoe_id} />;
-        })}
-      </main>
-    </FadeIn>
+      <Fade>
+        <main>
+          {shoes.map((shoe) => {
+            return <ShoeCard {...shoe} key={shoe.shoe_id} />;
+          })}
+        </main>
+      </Fade>
     );
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FadeIn from 'react-fade-in';
+// import FadeIn from 'react-fade-in';
 import './App.css';
 import { Router } from '@reach/router';
 import Header from './components/Header';
@@ -15,7 +15,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <FadeIn>
          <Header />
          <NavBar />
          <OptionsBar />
@@ -26,7 +25,6 @@ class App extends Component {
              <ErrorDisplay default status={404} message="This page does not exist"/>
          </Router>
          <Footer />
-         </FadeIn>
       </div>
   );
   }
