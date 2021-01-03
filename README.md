@@ -2,7 +2,7 @@
 
 View the website [here](https://goldenshoe.netlify.app/)
 
-Find the hosted back end [here](https://scheuster-backend.herokuapp.com/playerlist)
+Find the hosted back end [here](https://be-scheuster.herokuapp.com/api)
 
 View the back end repository [here](https://github.com/CharlyMannion/be-scheuster)
 
