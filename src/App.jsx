@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import FadeIn from 'react-fade-in';
 import './App.css';
 import { Router } from '@reach/router';
 import TopBar from './components/TopBar';
